@@ -2,6 +2,13 @@ body{
   background-color: #FFAACF;
 }
 h1{
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
   color: white;
   font-family: 'Lato','sans-serif';
   font-size: 5em;
@@ -43,6 +50,12 @@ h1{
   padding-bottom: 20px;
 }
 .Button{
+  text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
   font-size: 30px;
   height: 60px;
   background-color: #B9F3E4;
@@ -56,10 +69,16 @@ h1{
 }
 
 .GalleryButton{
+  text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 30px;
   width: 500px;
   height: 100px;
   background-color:#B9F3E4;
@@ -92,7 +111,7 @@ h1{
   justify-content: space-between;
 }
 .Hero{
-  margin-right: 42vw;
+  margin-right: 38vw;
 }
 .LinkE{
   align-self: center;
